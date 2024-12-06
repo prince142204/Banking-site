@@ -1,0 +1,10 @@
+.container footer{
+    display: flex;
+}
+
+.footer .p1footer ul li{
+    list-style: none;
+}
+.footer-heading{
+    font-weight: bold;
+}

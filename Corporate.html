@@ -1,0 +1,350 @@
+convert this into php <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bstyle.css">
+    <link rel="stylesheet" href="bcard.css">
+    <link rel="stylesheet" href="BFOOTER.CSS">
+    <style>
+        .carousel-item img {
+            width: 100%;
+            height: auto; /* Maintain aspect ratio */
+        }
+        .card1 {
+            height: 100%; /* Make cards full height */
+        }
+        .container {
+            padding: 20px;
+        }
+
+
+        
+        .imagetext {
+            position: absolute;
+            top: 15%;
+            left: 8%;
+            color: black    ;
+            font-size: 3rem;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .imagetext2 {
+            position: absolute;
+            top: 50%;
+            left: 8%;
+            color: rgb(44, 42, 42);
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 576px) {
+            .imagetext {
+                font-size: 1rem;
+                top: 5%;
+                left: 4%;
+            }
+
+            .imagetext2 {
+                font-size: 1rem;
+                top: 55%;
+                left: 4%;
+            }
+
+            .footer {
+                padding: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand me-auto" href="#">Offcanvas navbar</a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../CSS IMAGE/index.html">Personal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="../CSS IMAGE/Business.html">Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="../CSS IMAGE/Corporate.html">Corporate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="../CSS IMAGE/Private Banking.html">Private Banking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="../CSS IMAGE/Privy League.html">Privy League</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="../CSS IMAGE/NRI Services.HTML">NRI Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-lg-2" href="#">Investors</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a href="#" class="login-button">Login</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>
+
+<br>
+
+    <!-- Carousel -->
+    <div class="container-fluid p1image">
+        <img src="./public/images/fyn-main-web-banner.jpg" alt="Carousel Image">
+        <div class="imagetext">Earn FD-wala interest <br> up to 7%* p.a. in Savings <br>Account with  <br>ActivMoney</div>
+        <div class="imagetext2">To know more, <a href="#" class="text-Red">click here</a></div>
+    </div>
+    
+    <div class="container">
+        <h1 class="text-center my-5">Do a lot more with Fyn</h1>
+
+        <!-- Card Section -->
+        <h1 class="text-center">Our solutions across industries</h1>
+         <br>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card card1">
+                    <img src="./public/images/image 23.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card card1">
+                    <img src="./public/images/image 22.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card card1">
+                    <img src="./public/images/image24.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h2 class="text-center my-5">Have a specific need? Tell us what you are looking for to guide you better</h2>
+        <h2 class="text-center">Looking to meet an expert and get a perfect solution?</h2>
+        <p class="text-center">Our corporate and institution business experts can help you choose the right products and services for your business</p>
+        <p class="text-center">Corporate Contact Number (Local call rates apply) <img src="./public/images/icon/call-ic.png" alt=""> 1800 209 2011</p>
+        <p class="text-center">Alternatively, you can Ask For A Call Back</p>
+
+        <div class="container my-5" style="background-color: gray;">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="./public/images/image27.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h3>Restructuring Corporate Banking in India</h3>
+                    <p>How the industry is transforming through the lens of shifting times, trends and opportunities.</p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <h2 class="text-center">Research & Insights</h2>
+            <div class="row">
+                <div class="col-md-6"><img src="./public/images/IMAGE MOTO (3).jpg" class="img-fluid" alt=""></div>
+                <div class="col-md-6"><img src="./public/images/IMAGE MOTO (3).jpg" class="img-fluid" alt=""></div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Let's Start a Conversation</h4>
+                    <p>Looking to meet an expert and get a perfect solution? Get in touch with our team of experts to help create a tailor-made service for you.</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Corporate Contact Number: <br> 1800 209 2011</p>
+                    <p>Click here to write to us</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Ready to take the next step?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./public/images/icon/map-ic.png" alt="">
+                    <h4>Reach Us</h4>
+                    <p>You are never too far away from quick, efficient banking services. Locate your nearest branch or an ATM.</p>
+                    <a href="#" class="btn btn-primary">Locate now</a>
+                </div>
+                <div class="col-md-4">
+                    <img src="./public/images/icon/call-ic.png" alt="">
+                    <h4>Call Us</h4>
+                    <p>For assistance, call us at 1800 209 5600 from Monday to Saturday (9:30 am to 6:30 pm, excluding holidays).</p>
+                    <a href="#" class="btn btn-primary">Find out more</a>
+                </div>
+                <div class="col-md-4">
+                    <img src="./public/images/icon/connect-ic.png" alt="">
+                    <h4>Connect with us</h4>
+                    <p>Your opinion is important to us. We'll check how we can use it to improve our services.</p>
+                    <a href="#" class="btn btn-primary">Provide feedback</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <h4>Channel Red *New*</h4>
+            <p>Mobile Banking Net Banking Manage your account Transfer money Recharge / Make payments Credit Cards Debit Cards Loans National Pension Scheme Deposits</p>
+            <hr>
+            <h4>Popular Products</h4>
+            <p>Home Loan Personal Loan Savings Account Current Account Credit Cards Mutual Funds National Pension Scheme (NPS) Business Loan Zero Balance Savings Account Life Insurance Fixed Deposit Recurring Deposit Loan against property</p>
+            <hr>
+            <h4>Help Center</h4>
+            <p>Account Issue with Transactions Credit Card 811 Account Fund Transfer, Bill Payment & Recharge Loans FASTag Fixed Deposit (FD) and Recurring Deposit (RD) NRI Services My Profile - Mobile Number, Aadhaar, Email ID & Address Forex Insurance (Premium payments, Tax benefit etc) Investments (Scheme Issues, Dividend related) Working Capital KayMall - Flights, Hotels, Bus, Trains, Shopping</p>
+        </div>
+
+         <!-- footer -->
+
+ <Hr style="color: black; height: 2px;"></Hr>
+
+ <div class="container footer">
+   <div class="row p1footer">
+     <div class="col">
+       <ul>
+         <li class="footer-heading">About us</li>
+         <li>Our Businesse</li>
+         <li>Media Centre</li>
+         <li>Sustainability</li>
+         <li>Careers</li>
+         <li>DIFC Branch</li>
+         <li>GIFT Branch</li>
+         <li>KMFSL</li>
+         <br>
+
+         <li class="footer-heading">Investor Relations</li>
+           <li>Overview</li>
+           <li>Financials</li>
+           <li>Governance</li>
+           <li>Investor Info</li>
+           <li>Disclosures Regulation 46 and 62 </li>
+       </ul>
+
+     
+     </div>
+
+
+     <div class="col">
+       <ul>
+         <li class="footer-heading">Customer Service</li>
+         <li>Important Information</li>
+         <li>Write to us</li>
+         <li>Grievance Redressal</li>
+         <li>Report Fraud / Raise Dispute</li>
+         <li>Banking Ombudsman</li>
+         <li>Download Forms</li>
+         <li>Service Requests</li>
+         <li>Track Application Status</li>
+         <li>Tips on Safe Banking</li>
+         <li>Doorstep Banking Service</li>
+         <li>Contact Us for Depository Services</li>
+       </ul>
+     </div>
+
+     <div class="col">
+       <ul>
+         <li class="footer-heading">Calculators & Tools</li>
+         <li>Personal Loan EMI Calculator</li>
+         <li> Car Loan EMI Calculator</li>
+         <li>Home Loan EMI Calculator</li>
+         <li> Fixed Deposit Calculator</li>
+         <li>Recurring Deposit Calculator</li>
+         <li>Life Insurance Calculator</li>
+         <li> Business Loan EMI Calculator</li>
+         <li>Retirement Calculator</li>
+         <li>Simple Interest Calculator</li>
+         <li>Compound Interest Calculator</li>
+         <li>Goal Planner</li>
+         <li>Free Credit Score Checker</li>
+         <li>Sip Calculator</li>
+         <li>Mutual Fund Calculator</li>
+         <li>Lump Sum Calculator</li>
+       </ul>
+
+     </div>
+
+        <br> <br>
+
+     <div class="col">
+       <ul>
+         <li class="footer-heading">Game Hub</li>
+         <li>MotoGP™ Fantasy</li>
+         <li>MotoGP™ Predictor</li>
+         <li>MotoGP™ eSport</li>
+         <li>MotoGP™ Guru</li>
+         <li>MotoGP™23</li>
+       </ul>
+     </div>
+
+     <div class="col">
+       <ul>
+         <li class="footer-heading">About Us</li>
+         <li>Dorna Sports</li>
+         <li>Cookie Policy</li>
+         <li>Legal Notice</li>
+         <li>Privacy Policy</li>
+         <li>Purchase Policy</li>
+       </ul>  
+
+     </div>
+
+
+   </div>
+ </div>
+
+
+
+<div class="container">
+ <div class="row "  style="display: flex;">
+   <div class="col"><h5>Connect With Us </h5>
+     <div class="row">
+       <div class="col"><img src="./KEYA/apple-store.png" alt=""></div>
+       <div class="col"><img src="./KEYA/google-play.png" alt=""></div>
+     </div>
+ 
+</div>
+</div>
+</div>      
+
+        
+ <!-- Footer -->
+ <footer class="text-center py-4">
+  <p>&copy; 2024 Your Company Name. All Rights Reserved.</p>
+</footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

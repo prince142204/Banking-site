@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bstyle.css">
+    <link rel="stylesheet" href="bcard.css">
+    <link rel="stylesheet" href="BFOOTER.CSS">
+
+    <style>
+        body {
+            padding-top: 56px; /* Adjusted for fixed navbar */
+        }
+
+        .p1image {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .p1image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .imagetext {
+            position: absolute;
+            top: 10%;
+            left: 8%;
+            color: black    ;
+            font-size: 3rem;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .imagetext2 {
+            position: absolute;
+            top: 53%;
+            left: 8%;
+            color: rgb(44, 42, 42);
+            font-size: 1.2rem;
+        }
+
+        .card {
+            border: none;
+            border-radius: 0;
+            margin-bottom: 1rem;
+        }
+
+        .card-img-top {
+            border-radius: .5rem;
+        }
+
+        .footer {
+            padding: 2rem 0;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .footer ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-heading {
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 576px) {
+            .imagetext {
+                font-size: 1rem;
+                top: 5%;
+                left: 4%;
+            }
+
+            .imagetext2 {
+                font-size: 1rem;
+                top: 60%;
+                left: 4%;
+            }
+
+            .footer {
+                padding: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Offcanvas navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="../CSS IMAGE/index.html">Personal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../CSS IMAGE/Business.html">Business</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../CSS IMAGE/Corporate.html">Corporate</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../CSS IMAGE/Private Banking.html">Private Banking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../CSS IMAGE/Privy League.html">Privy League</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../CSS IMAGE/NRI Services.HTML">NRI Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Investors</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="#" class="btn btn-primary ms-2">Login</a>
+    </div>
+</nav>
+
+<!-- Carousel -->
+<div class="container-fluid p1image">
+    <img src="./public/images/IMAGE 33.jpg" alt="Carousel Image">
+    <div class="imagetext">Earn FD-wala interest <br> up to 7%* p.a. in Savings <br>Account with  <br>ActivMoney</div>
+    <div class="imagetext2">To know more, <a href="#" class="text-Red">click here</a></div>
+</div>
+
+<!-- Card Section -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="./public/images/IMAGE MOTO (7).jpg" class="card-img-top" alt="Loans">
+                <div class="card-body">
+                    <h3 class="card-title">Loans</h3>
+                    <h4 class="card-title">Personal Loan at incredibly low rates</h4>
+                    <p class="card-text">Quick loan sanction | Loan amount up to Rs.40 lakh</p>
+                    <a href="#" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="./public/images/IMAGE MOTO (3).jpg" class="card-img-top" alt="Savings Account">
+                <div class="card-body">
+                    <h3 class="card-title">Savings Account</h3>
+                    <h4 class="card-title">Kotak811 Mobile Banking App</h4>
+                    <p class="card-text">Enjoy fast UPI Payment, quick FDs and more with Kotak811 App</p>
+                    <a href="#" class="btn btn-primary">Download App</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mb-4">
+            <div class="card">
+                <img src="./public/images/IMAGE MOTO(10).jpg" class="card-img-top" alt="Home Loan">
+                <div class="card-body">
+                    <h3 class="card-title">Loan</h3>
+                    <h4 class="card-title">Kotak Home Loans</h4>
+                    <p class="card-text">Apply now for a home loan and get Rs5000 discount. T&C apply</p>
+                    <a href="#" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 4-card Section -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <img src="./public/images/IMAGE MOTO (2).jpg" class="img-fluid" alt="Moto Image">
+        </div>
+        <div class="col-md-6">
+            <div class="row g-3">
+                <div class="col-12 mb-4">
+                    <h4>Stories in focus</h4>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./public/images/image (28).jpg" class="img-fluid" alt="Story Image">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./public/images/image (28).jpg" class="img-fluid" alt="Story Image">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+
+
+    <!-- Card Section -->
+    <div class="container P1CARD">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./public/images/image (28).jpg" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Service 1</h5>
+                        <p class="card-text">Description of service 1.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./public/images/image (28).jpg" class="card-img-top" alt="Service 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Service 2</h5>
+                        <p class="card-text">Description of service 2.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="./public/images/image (28).jpg" class="card-img-top" alt="Service 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Service 3</h5>
+                        <p class="card-text">Description of service 3.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <!-- footer -->
+        <br>
+
+        <Hr style="color: black; height: 2px;"></Hr>
+
+            <!-- background-color: aliceblue;   is color ko ad kar na hai -->
+        <div class="container footer ">
+            <div class="row p1footer">
+            <div class="col">
+                <ul>
+                <li class="footer-heading">About us</li>
+                <li>Our Businesse</li>
+                <li>Media Centre</li>
+                <li>Sustainability</li>
+                <li>Careers</li>
+                <li>DIFC Branch</li>
+                <li>GIFT Branch</li>
+                <li>KMFSL</li>
+                <br>
+
+                <li class="footer-heading">Investor Relations</li>
+                    <li>Overview</li>
+                    <li>Financials</li>
+                    <li>Governance</li>
+                    <li>Investor Info</li>
+                    <li>Disclosures Regulation 46 and 62 </li>
+                </ul>
+
+            
+            </div>
+
+
+            <div class="col">
+                <ul>
+                <li class="footer-heading">Customer Service</li>
+                <li>Important Information</li>
+                <li>Write to us</li>
+                <li>Grievance Redressal</li>
+                <li>Report Fraud / Raise Dispute</li>
+                <li>Banking Ombudsman</li>
+                <li>Download Forms</li>
+                <li>Service Requests</li>
+                <li>Track Application Status</li>
+                <li>Tips on Safe Banking</li>
+                <li>Doorstep Banking Service</li>
+                <li>Contact Us for Depository Services</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <ul>
+                <li class="footer-heading">Calculators & Tools</li>
+                <li>Personal Loan EMI Calculator</li>
+                <li> Car Loan EMI Calculator</li>
+                <li>Home Loan EMI Calculator</li>
+                <li> Fixed Deposit Calculator</li>
+                <li>Recurring Deposit Calculator</li>
+                <li>Life Insurance Calculator</li>
+                <li> Business Loan EMI Calculator</li>
+                <li>Retirement Calculator</li>
+                <li>Simple Interest Calculator</li>
+                <li>Compound Interest Calculator</li>
+                <li>Goal Planner</li>
+                <li>Free Credit Score Checker</li>
+                <li>Sip Calculator</li>
+                <li>Mutual Fund Calculator</li>
+                <li>Lump Sum Calculator</li>
+                </ul>
+
+            </div>
+
+                <br> <br>
+
+            <div class="col">
+                <ul>
+                <li class="footer-heading">Game Hub</li>
+                <li>MotoGP™ Fantasy</li>
+                <li>MotoGP™ Predictor</li>
+                <li>MotoGP™ eSport</li>
+                <li>MotoGP™ Guru</li>
+                <li>MotoGP™23</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <ul>
+                <li class="footer-heading">About Us</li>
+                <li>Dorna Sports</li>
+                <li>Cookie Policy</li>
+                <li>Legal Notice</li>
+                <li>Privacy Policy</li>
+                <li>Purchase Policy</li>
+                </ul>  
+
+            </div>
+
+
+            </div>
+        </div>
+
+
+        
+        <div class="container">
+        <div class="row "  style="display: flex;">
+            <div class="col"><h5>Connect With Us </h5>
+            <div class="row">
+                <div class="col"><img src="./KEYA/apple-store.png" alt=""></div>
+                <div class="col"><img src="./KEYA/google-play.png" alt=""></div>
+            </div>
+        
+        </div>
+        </div>
+    </div>  
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybV+2T2Sm+8pdi1Jf9T7G6b/djSHFw/AI0xTmD/2Q+uI4Obv" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-ib8BDsQ4H3ST+4RjUduy0IQm6U97gHEhSRgU0+aNjT0Q5bfgGJl2h8wLEvD3bVg5" crossorigin="anonymous"></script>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+        
+        
